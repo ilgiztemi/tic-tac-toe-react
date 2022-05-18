@@ -69,7 +69,7 @@ const App = () => {
           );
         })}
       </div>
-      <div className="winner">{winner}</div>
+      <div className={winner ? "winner" : ""}>{winner}</div>
     </div>
   );
 };

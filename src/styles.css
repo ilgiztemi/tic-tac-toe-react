@@ -1,0 +1,26 @@
+.container {
+  font-family: sans-serif;
+  background-color: aliceblue;
+  margin: 100px auto;
+  border: 2px solid gray;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid gray;
+  height: 250px;
+  font-size: 100px;
+  color: lightsteelblue;
+  font-weight: bold;
+}
+.winner {
+  font-size: 30px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: lightblue;
+  width: 200px;
+  margin: 10px auto;
+  padding: 10px;
+  color: aliceblue;
+}
